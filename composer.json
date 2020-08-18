@@ -23,7 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MarekMikula\\LaravelConsoleEvents\\Tests": "tests/"
+            "MarekMikula\\LaravelConsoleEvents\\Tests\\": "tests/"
         }
     },
     "require": {},
