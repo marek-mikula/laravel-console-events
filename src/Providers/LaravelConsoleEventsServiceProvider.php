@@ -9,7 +9,7 @@ use MarekMikula\LaravelConsoleEvents\Listeners\ArtisanStartingListener;
 
 class LaravelConsoleEventsServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             /**
@@ -19,7 +19,7 @@ class LaravelConsoleEventsServiceProvider extends ServiceProvider
         }
     }
 
-    public function register()
+    public function register(): void
     {
         //
     }

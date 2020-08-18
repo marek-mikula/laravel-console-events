@@ -17,7 +17,7 @@ class ArtisanStartingListener
     /**
      * @param ArtisanStarting $event
      */
-    public function handle(ArtisanStarting $event)
+    public function handle(ArtisanStarting $event): void
     {
         /**
          * We have to register Symphony events

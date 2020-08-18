@@ -9,17 +9,20 @@
             "email": "marek.mikula01@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "MarekMikula\\LaravelConsoleEvents\\": "src/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "MarekMikula\\LaravelConsoleEvents\\Providers\\LaravelConsoleEventsServiceProvider"
             ]
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "MarekMikula\\LaravelConsoleEvents\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "nunomaduro/larastan": "^0.6.2"
     }
 }
