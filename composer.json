@@ -1,0 +1,25 @@
+{
+    "name": "marek-mikula/laravel-console-events",
+    "description": "Package of Laravel console events",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Mikula",
+            "email": "marek.mikula01@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MarekMikula\\LaravelConsoleEvents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarekMikula\\LaravelConsoleEvents\\Providers\\LaravelConsoleEventsServiceProvider"
+            ]
+        }
+    }
+}
