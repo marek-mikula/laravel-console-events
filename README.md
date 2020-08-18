@@ -2,13 +2,13 @@
 
 ## What is this package for? ##
 
-This packages allows you to use events that are triggered by the console. The events are:
+This package allows you to use events that are triggered by the console. The events are:
 
-`MarekMikula\LaravelConsoleEvents\Events\CommandErrorEvent` This events is being triggered every time the command throws and exception.
+`MarekMikula\LaravelConsoleEvents\Events\CommandErrorEvent` This event is triggered every time the command throws and exception.
 
-`MarekMikula\LaravelConsoleEvents\Events\CommandExecutedEvent`  This event is being triggered everytime before any command is executed
+`MarekMikula\LaravelConsoleEvents\Events\CommandExecutedEvent`  This event is triggered everytime before any command executes.
 
-`MarekMikula\LaravelConsoleEvents\Events\CommandTerminatedEvent` This event is being triggered everytime after any command is terminated
+`MarekMikula\LaravelConsoleEvents\Events\CommandTerminatedEvent` This event is triggered everytime after any command terminates.
     
 ## How to install this package? ##
 
@@ -22,7 +22,7 @@ composer require marek-mikula/laravel-console-events
 
 ### Create listeners ###
 
-Use Laravel's command `php artisan make:listener` to create 
+Use Laravels command `php artisan make:listener` to create 
 listeners which will listen to the events, which this package provides.
 The listeners will be created in the `app/Listeners` folder.
 
@@ -131,7 +131,7 @@ protected $listen = [
 
 ## Results ##
 
-Just use some testing command that throws an exception in its handle method 
+Just use some testing command that throws an exception in its handle method, 
 and you should see something similar.
 
 ```
