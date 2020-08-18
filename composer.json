@@ -9,12 +9,6 @@
             "email": "marek.mikula01@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "MarekMikula\\LaravelConsoleEvents\\": "src/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
@@ -22,6 +16,17 @@
             ]
         }
     },
+    "autoload": {
+        "psr-4": {
+            "MarekMikula\\LaravelConsoleEvents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarekMikula\\LaravelConsoleEvents\\Tests": "tests/"
+        }
+    },
+    "require": {},
     "require-dev": {
         "orchestra/testbench": "^5.4"
     }
