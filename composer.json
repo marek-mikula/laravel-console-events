@@ -21,7 +21,9 @@
             "MarekMikula\\LaravelConsoleEvents\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "laravel/framework": "^6.2"
+    },
     "require-dev": {
         "nunomaduro/larastan": "^0.6.2"
     }
