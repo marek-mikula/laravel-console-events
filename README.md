@@ -4,7 +4,7 @@
 
 This package allows you to use events that are triggered by the console. The events are:
 
-`MarekMikula\LaravelConsoleEvents\Events\CommandErrorEvent` This event is triggered every time the command throws and exception.
+`MarekMikula\LaravelConsoleEvents\Events\CommandErrorEvent` This event is triggered every time the command throws an exception.
 
 `MarekMikula\LaravelConsoleEvents\Events\CommandExecutedEvent`  This event is triggered everytime before any command executes.
 
